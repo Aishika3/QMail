@@ -1,0 +1,187 @@
+
+    .under{
+        text-decoration-color: #9a5dfd;
+    }
+    .template{
+        margin: 0 auto;
+        padding: 20px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .details {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    }
+
+    .sub-head-top {
+        width: 100%; color: #333; 
+        font-size: 40px; 
+        text-align: center; 
+        font-weight: bold; 
+        font-family: 'Poppins Medium'; 
+        text-decoration-line: underline; 
+        text-decoration-color: #9a5dfd;
+    }
+
+    .details textarea {
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+        font-family: 'Poppins Medium';
+        border-color: #FFFF;
+        width: 100%;
+        box-sizing: border-box;
+    }
+         
+        .heading h1 {
+            color: navy;
+            font-size: 50px;
+            text-align: center;
+            margin: 0;
+        }
+        
+    .section1,
+    .section2 {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section1 {
+        background-color:#DDC8FF ;
+    }
+
+    .section1 textarea {
+        background-color:#DDC8FF ;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .section2 textarea {
+        justify-content: center;
+        align-self: center;
+    }
+
+    .details1 {
+        background-color: #FFFF;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .details2 {
+        background-color: #DDC8FF;
+        padding: 5px;
+        border: 1px solid #fcfbfb;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .details1 textarea {
+        font-size: 16px;
+        color: #110d0d;
+        font-family: 'Poppins', sans-serif;
+        text-align: right;
+        background-color: #FFFF;
+        border-color: #FFFF;
+        width: 100%;
+    }
+
+    .details2 textarea {
+        font-size: 16px;
+        color: #110d0d;
+        font-family: 'Poppins', sans-serif;
+        text-align: right;
+        background-color: #DDC8FF;
+        border-color: #DDC8FF;
+        width: 100%;
+    }
+
+    .section1 .images,
+    .section2 .images {
+        text-align: center;
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+
+    .details1 .images img,
+    .details2 .images img {
+        max-width: 100%;
+        height: auto;
+    }
+
+        .button {
+            text-align:center;
+        }
+
+        .button a {
+            text-decoration: none;
+            justify-content: center;
+        }
+
+        .site {
+            padding: 8px;
+            border-radius: 50px;
+            color: aliceblue;
+            background-color: rgb(41, 39, 43);
+            font-size: 20px;
+            margin: 50px;
+            cursor: pointer;
+        }
+        @media only screen and (max-width: 600px) {
+            .image img {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            .details {
+                flex-direction: column;
+            }
+            .details teaxtarea {
+                text-align: left;
+            }
+            .details .images {
+                text-align: center;
+            }
+        }
+        @media only screen and (max-width: 400px) {
+            .btn {
+                margin: 25px;
+                padding: 10px;
+                font-size: 18px;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .details {
+            flex-direction: column;
+        }
+
+        .details textarea {
+            text-align: left;
+        }
+
+        .details .images {
+            text-align: center;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .btn {
+            margin: 25px;
+            padding: 10px;
+            font-size: 18px;
+        }
+    }

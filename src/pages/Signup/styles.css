@@ -1,0 +1,12 @@
+.btn-outline-purple {
+    
+    border: 1px solid purple;
+    background-color: aliceblue;
+    color: purple;
+}
+
+.btn-outline-purple:hover {
+    background-color: purple;
+    outline: purple;
+    border: 1px solid purple;
+}

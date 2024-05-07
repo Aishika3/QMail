@@ -1,0 +1,16 @@
+.perimeter {
+    display: flex;   
+    border: 0 solid rgba(0,0,0,.0);
+	box-shadow: inset 0px 3px 3px 1px rgba(14, 13, 13, 0.08),inset 0px -1px 2px 1px rgba(255,255,255,.45);
+	
+}
+
+.perimeter:focus {
+    outline: 0 solid rgba(0,0,0,.0);
+    box-shadow: outset 0px 3px 3px 1px rgba(14, 13, 13, 0.08),outset 0px -1px 2px 1px rgba(236, 228, 228, 0.45);
+}
+
+.wrapper {
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/d0/eb/f6/d0ebf67f29830c26f31ded60fcad8732.jpg");
+}

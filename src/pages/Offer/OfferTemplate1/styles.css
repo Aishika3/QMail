@@ -1,0 +1,156 @@
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #FFE5F6;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.heading {
+    background-color: #FFE5F6;
+}
+
+.heading h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.sub-head {
+    background-color: #FFE5F6;
+    padding: 5px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sub-head h2 {
+    color: #333;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins Medium';
+}
+
+#editableHeader {
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins Medium';
+    background-color: #FFE5F6;
+}
+
+.offer-desc {
+    background-color: #FFE5F6;
+}
+
+#editableText {
+    width: 100%;
+}
+
+.image {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.details {
+    background-color: #FFE5F6;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.details p {
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    font-family: 'Poppins Medium';
+}
+
+.button {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.site {
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: rgb(41, 39, 43);
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.home_social {
+text-align: center;
+}
+
+.home__social-icon {
+display: inline-block;
+margin: 0 5px;
+font-size: 40px;
+color: #333;
+transition: color 0.3s;
+}
+
+.home__social-icon:hover {
+color: #007bff;
+}
+.heading {
+text-align: center;
+padding: 0px;
+background-color:  #FFE5F6;
+}
+
+.heading img {
+max-width: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .sub-head h2 {
+        font-size: 30px;
+    }
+
+    .btn {
+        margin: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .heading h1 {
+        font-size: 24px;
+    }
+
+    .sub-head h2 {
+        font-size: 24px;
+    }
+
+    .btn {
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+    }
+}
